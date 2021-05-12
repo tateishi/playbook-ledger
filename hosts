@@ -1,2 +1,5 @@
-[target]
-ledger
+# -*- mode: yaml -*-
+
+target:
+  hosts:
+    ledger:
