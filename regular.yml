@@ -1,7 +1,7 @@
 - hosts: target
   roles:
     - timezone
-    - apt-upgrade
+    - upgrade-packages
     - packages
     - dotfiles
     - emacs
