@@ -27,3 +27,5 @@
           dest: "{{ work_path }}/ledger_tadatoshi"
         - repo: http://git.tateishi/git/tadatoshi/ledger_estate.git
           dest: "{{ work_path }}/ledger_estate"
+        - repo: http://git.tateishi/git/tadatoshi/ledger_accounts.git
+          dest: "{{ work_path }}/accounts"
